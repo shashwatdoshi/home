@@ -41,7 +41,7 @@ const mainBody = {
 //b) a link to an hosted image
 //      i.e:profilePictureLink:"www.picturesonline.com/johnDoeFancyAvatar.jpg",
 //c) image in "editable-stuff" directory and use require("") to import here,
-//      i.e: profilePictureLink: require("../editable-stuff/hashirshoaeb.png"),
+//      i.e: profilePictureLink: require("../editable-stuff/shashwatdoshi.png"),
 //d) If you do not want any picture to be displayed, just leave it empty :)
 //      i.e: profilePictureLink: "",
 // For Resume either provide link to your resume or import from "editable-stuff" directory
@@ -52,9 +52,9 @@ const about = {
   show: true,
   heading: "About Me",
   imageLink: require("../editable-stuff/shashwatdoshi.png"),
-  imageSize: 375,
+  imageSize: 400,
   message:
-    "My name is Shashwat Doshi. I'm a versatile Computer Engineer. By profession, I am a Software Engineer, Who love to solve a community problem and develop optimal solutions having a Cup of Tea. By choice, I am an Entrepreneur, Speaker and Part-time singer as well! Thanks for reaching out to me!",
+    "Hello, Your geeky friend Shashwat Doshi.\n With being versatile Computer Engineer, By profession, I am a Software Engineer, Who love to solve a community problem and develop optimal solutions having a Cup of Tea. By choice, I am an Entrepreneur, Speaker and Part-time singer as well! Thanks for reaching out to me!",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
